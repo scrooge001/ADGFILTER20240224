@@ -1,0 +1,15 @@
+version: "3.8"
+services:
+   worker:
+    build: .
+    environment:
+      BOT_TOKEN: 6686728746:AAEVM6Wp0ptZR81uzMsWt7WIpSXAyYWM3pc
+      API_ID: 29228879
+      API_HASH: f8c420d7f974ef0a2bc23a9a4a0dc859
+      CHANNELS: -1001996814616
+      ADMINS: 5809081123
+      LOG_CHANNEL: -1002021088905
+      DATABASE_NAME: Cluster0
+      DATABASE_URI: mongodb+srv://perera51:perera51@cluster0.c5kzo5m.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+      COLLECTION_NAME: adg_movies
+      AUTH_CHANNEL: -1001996814616
